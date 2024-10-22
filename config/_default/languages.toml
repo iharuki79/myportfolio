@@ -1,0 +1,10 @@
+# multiple languages
+[ja]
+    languageName = "日本語"
+    languagedirection = "ltr"
+    weight = 1
+
+    # [en]
+    #     languageName = "English"
+    #     languagedirection = "ltr"
+    #     weight = 2

@@ -1,6 +1,6 @@
 ---
-title: Example Category
-description: A description of this category
+title: blog
+description: ブログなど
 image:
 
 # Badge style

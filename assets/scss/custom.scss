@@ -1,3 +1,13 @@
 /*
     You can add your own custom styles here.
 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+    color: #333333;
+    font-family: 'Noto Sans JP', sans-serif !important;
+}
+
+.emoji {
+    font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
+}

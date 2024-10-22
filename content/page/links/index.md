@@ -1,33 +1,41 @@
 ---
 title: Links
+date: 2024-10-22 15:33:13
 links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  - title: GitHub - @iharuki79
+    description: 成果物や勉強物等の置き場です。
+    website: https://github.com/iharuki79
+    image: https://github.com/iharuki79.png
+  - title: hatenablog - はるすえすしーのぶろぐ
+    description: 旧ブログ。雑多
+    website: https://halss.hatenablog.com/
+    image: 
+  - title: Qiita
+    description: 技術系の記事。あまり投稿できていません。
+    website: https://qiita.com/OneHalsOne
+    image: 
+  - title: AtCoder - hals
+    description: 最高レーティング水色(A, H)。主にJulia言語を使っています。
+    website: https://atcoder.jp/users/hals
+  - title: Codeforces - hals
+    description: 現在Pupil。あまり参加できていません。主にC++を使っています。
+    website: https://codeforces.com/profile/hals
+  - title: X - @Hals_AC
+    description: プログラミング関連のアカウント。
+    website: https://x.com/Hals_AC
+    image: https://pbs.twimg.com/profile_images/1672267671516377095/IuhnYMPE_400x400.jpg
+  - title: Bluesky - ha1s
+    description: 主に読んだ本をつぶやいています。
+    website: https://bsky.app/profile/ha1s.bsky.social
+  - title: Last.fm
+    description: 聞いている音楽。lifelog
+    website: https://www.last.fm/user/KawaiiHack
+    image:
 menu:
     main: 
-        weight: 4
+        weight: 5
         params:
             icon: link
 
 comments: false
 ---
-
-To use this feature, add `links` section to frontmatter.
-
-This page's frontmatter:
-
-```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-```
-
-`image` field accepts both local and external images.
