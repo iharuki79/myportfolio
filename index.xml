@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hals's portfolio</title><link>https://www.hals.one/</link><description>Recent content on hals's portfolio</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 24 Oct 2024 09:27:04 +0000</lastBuildDate><atom:link href="https://www.hals.one/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo + GitHub Pagesでブログを開設した</title><link>https://www.hals.one/p/new-portfolio/</link><pubDate>Thu, 24 Oct 2024 09:27:04 +0000</pubDate><guid>https://www.hals.one/p/new-portfolio/</guid><description>&lt;p>Under Construction&lt;/p></description></item><item><title>About</title><link>https://www.hals.one/about/</link><pubDate>Tue, 22 Oct 2024 15:33:13 +0000</pubDate><guid>https://www.hals.one/about/</guid><description>&lt;h2 id="名前">名前
+&lt;/h2>&lt;p>hals (はるす) / Haruki I.&lt;/p>
+&lt;h2 id="所属">所属
+&lt;/h2>&lt;p>豊橋技術科学大学大学院 工学研究科 情報・知能工学専攻 修士課程 1年&lt;/p>
+&lt;p>自然言語処理研究室所属&lt;/p>
+&lt;h2 id="学歴">学歴
+&lt;/h2>&lt;ul>
+&lt;li>2017/4 福井工業高等専門学校電子情報工学科 入学&lt;/li>
+&lt;li>2022/3 福井工業高等専門学校電子情報工学科 卒業&lt;/li>
+&lt;li>2022/4 豊橋技術科学大学工学部情報・知能工学課程 編入学&lt;/li>
+&lt;li>2024/3 豊橋技術科学大学工学部情報・知能工学課程 卒業&lt;/li>
+&lt;li>2024/4 豊橋技術科学大学大学院工学研究科情報・知能工学専攻 入学&lt;/li>
+&lt;li>2026/3 豊橋技術科学大学大学院工学研究科情報・知能工学専攻 卒業見込み&lt;/li>
+&lt;/ul>
+&lt;h2 id="職歴">職歴
+&lt;/h2>&lt;ul>
+&lt;li>2024/1~2 株式会社いい生活 実務訓練&lt;/li>
+&lt;li>2024/6~ 株式会社いい生活 長期インターン&lt;/li>
+&lt;/ul>
+&lt;h2 id="資格等">資格等
+&lt;/h2>&lt;ul>
+&lt;li>2017/8 危険物取扱者乙種四類 取得&lt;/li>
+&lt;li>2020/6/3 アルゴリズム実技検定（PAST）中級&lt;/li>
+&lt;li>2020/12 普通自動車第一種運転免許 取得&lt;/li>
+&lt;li>2022/12 応用情報技術者試験 合格&lt;/li>
+&lt;li>TOEIC L&amp;amp;R 公開テスト 610点&lt;/li>
+&lt;li>AtCoder 水色(Algorithm, Heuristic)&lt;/li>
+&lt;li>Paiza Sランク&lt;/li>
+&lt;/ul>
+&lt;h2 id="研究">研究
+&lt;/h2>&lt;h3 id="国際学会査読あり">国際学会(査読あり)
+&lt;/h3>&lt;ul>
+&lt;li>Haruki Ishikawa, Ryuto Kobayashi, Yuki Gato and Tomoyosi Akiba, &amp;ldquo;Pseudo Fake Data Generation using Round-Trip Translation for Fact Verification on Political Debates,&amp;rdquo; In Proceedings of the 10th International Conference on Advanced Informatics: Concepts, Theory and Applications (ICAICTA), IEEE, 2023. &lt;a class="link" href="https://ieeexplore.ieee.org/document/10389996" target="_blank" rel="noopener"
+>https://ieeexplore.ieee.org/document/10389996&lt;/a> (&lt;strong>Best Paper Award&lt;/strong>)&lt;/li>
+&lt;li>Tasuku Shin, Haruki Ishikawa, Yuki Gato, Eiji Kuramoto and Tomoyoshi Akiba, &amp;ldquo;AKBL at the NTCIR-17 QA Lab-PoliInfo-4 Task,&amp;rdquo; the 17th NTCIR conference, Dec. 2023. (共著, 発表)&lt;/li>
+&lt;/ul>
+&lt;h3 id="国内学会査読あり">国内学会(査読あり)
+&lt;/h3>&lt;ul>
+&lt;li>石川 晴基 and 秋葉 友良, &amp;ldquo;&lt;a class="link" href="https://confit.atlas.jp/guide/event/jsai2024/subject/3M1-OS-12a-03/tables?cryptoId=" target="_blank" rel="noopener"
+>Round-Trip翻訳を用いた疑似フェイクデータ生成による議会議事録の自動要約を対象とした事実検証&lt;/a>,&amp;rdquo; 2024年度 人工知能学会全国大会, 静岡県浜松市, May. 2024.&lt;/li>
+&lt;/ul>
+&lt;h3 id="国内学会査読なし">国内学会(査読なし)
+&lt;/h3>&lt;ul>
+&lt;li>石川 晴基 and 波多 浩昭, &amp;ldquo;特殊詐欺電話を撃退するための電話アダプタ装置の開発,&amp;rdquo; 信学技報, vol. 121, no. 208, ICTSSL2021-19, pp. 7-11, Oct. 2021. （査読なし）(&lt;strong>2021年ICTSSL研究奨励賞&lt;/strong>)&lt;/li>
+&lt;/ul>
+&lt;h3 id="査読ありレター">査読ありレター
+&lt;/h3>&lt;ul>
+&lt;li>石川 晴基 and 波多 浩昭, “特殊詐欺電話を撃退するための電話アダプタ装置の開発,&amp;quot; DOI: 10.14923/transcomj.2021BLL0017, 電子情報通信学会論文誌 B, Vol. J105-B, No. 7, pp.525-526, Jul. 2022.&lt;/li>
+&lt;/ul>
+&lt;h3 id="共著">共著
+&lt;/h3>&lt;ul>
+&lt;li>松井我颯, 石川晴基, 中島陽子, 本間宏利 and 秋葉友良, &amp;ldquo;都議会議事録における自動要約のための数値情報自動修正手法の提案,&amp;rdquo; 言語処理学会第29回年次大会, 神戸市, Mar. 2024. (共著)&lt;/li>
+&lt;li>小川 泰弘, 石川 晴基 and 秋葉 友良, &amp;ldquo;&lt;a class="link" href="https://confit.atlas.jp/guide/event/jsai2024/subject/3M1-OS-12a-01/tables?cryptoId=" target="_blank" rel="noopener"
+>NTCIR-17 QA Lab-PoliInfo-4におけるQAタスクおよびAVタスクの分析&lt;/a>,&amp;rdquo; 2024年度 人工知能学会全国大会, 静岡県浜松市, May. 2024. (共著)&lt;/li>
+&lt;li>松井我颯, 石川晴基, 中島陽子, 本間宏利 and 秋葉友良, &amp;ldquo;会議録における自動要約のための数値情報自動修正手法の提案,&amp;rdquo; 言語獲得と理解研究会, LAU Technical Reports, pp.28&amp;ndash;32, 釧路市, Sep. 2024.&lt;/li>
+&lt;/ul>
+&lt;h2 id="受賞歴">受賞歴
+&lt;/h2>&lt;h3 id="学会等">学会等
+&lt;/h3>&lt;ul>
+&lt;li>2021年 安全・安心な生活とＩＣＴ研究会 研究奨励賞&lt;/li>
+&lt;li>電子情報通信学会東海支部 学生研究奨励賞&lt;/li>
+&lt;li>福井高専電子情報工学科 卒業研究発表 最優秀賞&lt;/li>
+&lt;li>International Conference on Advanced Informatics: Concepts, Theory and Applications (ICAICTA) 2023 Best Paper Award&lt;/li>
+&lt;li>NTCIR-17 QA Lab-PoliInfo-4 1位(AnswerVerification subtask, AKBLとして)&lt;/li>
+&lt;/ul>
+&lt;h3 id="福井高専プログラミング研究会として">福井高専プログラミング研究会として
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>福井高専プログラミング研究会 立ち上げ&lt;/p>
+&lt;ul>
+&lt;li>高専プロコンをはじめとする様々なコンテストでの上位入賞を目指し、プログラミングコンテスト等に参加する同好会を同級生とともに立ち上げ、副部長として後輩の教育などを行いました。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Hokuriku-Innovation-Trial 2019 (HIT2019)&lt;/p>
+&lt;ul>
+&lt;li>キャンパス部門 最優秀賞&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.nict.go.jp/venture/hokuriku_hit2019_report.html" target="_blank" rel="noopener"
+>ICTスタートアップ支援センター | Hokuriku Innovation Trial-2019 〜 開催報告 | NICT-情報通信研究機構&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://fukuno.jig.jp/2671" target="_blank" rel="noopener"
+>ディープラーニングを使ったオーラルケア、福井高専チームが優勝！ 北陸イノベーショントライアル HIT2019 - 写真整理にもプログラミング！&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>ふくいソフトウェアコンペティション 2019&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.fisc.jp/main/wp-content/uploads/2024/03/3dd3ac7a356b31155e5eb2e0d0141a6c.pdf" target="_blank" rel="noopener"
+>大賞、プログラミングクラブネットワーク賞、福井システムズ株式会社賞&lt;/a>（ハビット～簡易歯科検診システム～）&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>令和元年度起業家甲子園&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://qshu-nbc.or.jp/wp-content/uploads/2020/03/200304-NICT%E8%B5%B7%E6%A5%AD%E5%AE%B6%E7%94%B2%E5%AD%90%E5%9C%92%E3%80%80%E7%B5%90%E6%9E%9C%E5%A0%B1%E5%91%8A.pdf" target="_blank" rel="noopener"
+>AWS(アマゾンウェブサービス)賞、クラウドワークス賞、Salesforce.com賞、YJキャピタル賞&lt;/a>（ハビット －簡易的な歯科検診デバイス－）&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>ふくいソフトウェアコンペティション 2020&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.fisc.jp/main/wp-content/uploads/2024/03/2123ca30df3d790139bc89b0fcf672bc.pdf" target="_blank" rel="noopener"
+>大賞&lt;/a> (Labocket -XRによる理科学習アプリケーション-)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>福井高専ビジネスアイデアコンテスト2020&lt;/p>
+&lt;ul>
+&lt;li>グランプリ&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.fukui-nct.ac.jp/event/42477/" target="_blank" rel="noopener"
+>福井高専ビジネスアイデアコンテスト２０２０を開催&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="icpcinternational-collegiate-programming-contest">ICPC(International Collegiate Programming Contest)
+&lt;/h3>&lt;ul>
+&lt;li>2022年度
+&lt;ul>
+&lt;li>国内予選通過 (TUTankhamun)&lt;/li>
+&lt;li>アジア地区横浜大会出場 33位&lt;/li>
+&lt;li>協賛企業賞(レトリバ賞) 獲得&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>2023年度
+&lt;ul>
+&lt;li>国内予選通過 (TUTankhamun)&lt;/li>
+&lt;li>アジア地区横浜大会出場 32位&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>2024年度
+&lt;ul>
+&lt;li>国内予選敗退 (LastMagia)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="趣味好きなこと">趣味・好きなこと
+&lt;/h2>&lt;ul>
+&lt;li>読書&lt;/li>
+&lt;li>ポケモンスリープ&lt;/li>
+&lt;li>猫と遊ぶ&lt;/li>
+&lt;li>ゲーム&lt;/li>
+&lt;li>競技プログラミング&lt;/li>
+&lt;li>X(旧Twitter)&lt;/li>
+&lt;/ul>
+&lt;h2 id="連絡先">連絡先
+&lt;/h2>&lt;p>iharuki79🐱outlook.jp ※🐱を@に変えてください。&lt;/p></description></item><item><title>Hello World!🎉</title><link>https://www.hals.one/p/hello-world/</link><pubDate>Tue, 22 Oct 2024 15:33:13 +0000</pubDate><guid>https://www.hals.one/p/hello-world/</guid><description>&lt;p>新しいポートフォリオサイトを開設しました！🎉&lt;/p>
+&lt;p>静的コンテンツ生成はHugo (&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
+>Stackテーマ&lt;/a>)、ホスティングはGitHub Pages、CI/CDはGitHub Actionsを利用しています。&lt;/p>
+&lt;h2 id="リンク">リンク
+&lt;/h2>&lt;p>&lt;a class="link" href="https://github.com/iharuki79/myportfolio" target="_blank" rel="noopener"
+>GitHubリポジトリ&lt;/a>&lt;/p></description></item><item><title>Links</title><link>https://www.hals.one/links/</link><pubDate>Tue, 22 Oct 2024 15:33:13 +0000</pubDate><guid>https://www.hals.one/links/</guid><description/></item><item><title/><link>https://www.hals.one/kakushi/old/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.hals.one/kakushi/old/</guid><description>&lt;style>
+li#dark-mode-toggle {
+display: none;
+}
+&lt;/style>
+&lt;div class="body">
+&lt;template shadowrootmode="open">
+&lt;meta name="robots" content="noindex, nofollow">
+&lt;meta charset="utf-8">
+&lt;meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, viewport-fit=cover">
+&lt;title>hals.one - めいんぺーじ&lt;/title>
+&lt;meta name="keywords" content="">
+&lt;link rel="preconnect" href="https://fonts.googleapis.com">
+&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+&lt;link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&amp;display=swap" rel="stylesheet">
+&lt;link href="./stylesheets/style.css" rel="stylesheet" type="text/css">
+&lt;script type="text/javascript" src="./libraries/p5.js">&lt;/script>
+&lt;script type="text/javascript" src="./scripts/sketch.js">&lt;/script>
+&lt;script type="text/javascript" src="./scripts/script.js">&lt;/script>
+&lt;header>ヘッダーも用意してないよ&lt;/header>
+&lt;div class="section">
+&lt;img id="webM" src="./images/circleM.png" alt="顔にwebと書かれた謎の生き物" title="ぼく" width="70vw" height="70vw">
+&lt;h1>＜ただのリンク集だよ!&lt;/h1>
+&lt;/div>
+&lt;div>Twitter&lt;/div>
+&lt;div class="section">
+&lt;p>&lt;a href="https://twitter.com/Hals_SC">🔓public&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://twitter.com/Hals_AC">🔓競プロ&lt;/a>&lt;/p>
+&lt;/div>
+&lt;div>blog / diary / lifelog&lt;/div>
+&lt;div class="section">
+&lt;p>&lt;a href="https://halss.hatenablog.com/">hatenablog&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://qiita.com/OneHalsOne">Qiita&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.last.fm/user/KawaiiHack">last.fm&lt;/a>&lt;/p>
+&lt;/div>
+&lt;div>programming&lt;/div>
+&lt;div class="section">
+&lt;p>&lt;a href="https://github.com/iharuki79/">GitHub&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://atcoder.jp/users/hals">AtCoder&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://onlinejudge.u-aizu.ac.jp/status/users/hals">AOJ&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://codeforces.com/profile/hals">Codeforces&lt;/a>&lt;/p>
+&lt;/div>
+&lt;div>game&lt;/div>
+&lt;div class="section">
+&lt;p>&lt;a href="https://steamcommunity.com/profiles/76561199071052921/">Steam&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://store.epicgames.com/ja/u/ae2ec5a53a7549c8b013c85b2a7a10b2">Epic Games&lt;/a>&lt;/p>
+&lt;/div>
+&lt;footer>
+&lt;font size=1>そろそろちゃんとしたいなと思ってはいます&lt;/font>
+&lt;/footer>
+&lt;/template>
+&lt;/div></description></item><item><title>Archives</title><link>https://www.hals.one/archives/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.hals.one/archives/</guid><description/></item><item><title>Search</title><link>https://www.hals.one/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.hals.one/search/</guid><description/></item></channel></rss>
