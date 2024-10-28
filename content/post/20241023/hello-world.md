@@ -4,12 +4,7 @@ description: 初投稿
 slug: hello-world
 date: 2024-10-22 15:33:13
 categories:
-    - blog
     - works
-    - books
-    - competitive
-    - others
-    - writeup
 tags: []
 ---
 
