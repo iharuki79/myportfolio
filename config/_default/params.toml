@@ -14,7 +14,7 @@ favicon = "/favicon.ico"
 
 [sidebar]
     emoji = "🧠"
-    subtitle = "情報系大学院生です。"
+    subtitle = "hals/はるす 情報系大学院生です。"
 
     [sidebar.avatar]
         enabled = true

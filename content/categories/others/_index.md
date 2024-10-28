@@ -1,10 +1,10 @@
 ---
-title: others
+title: Other
 description: その他雑多
 image:
 
 # Badge style
 style:
-    background: "#2a9d8f"
+    background: "#000000"
     color: "#fff"
 ---

@@ -16,9 +16,33 @@
         icon = "brand-github"
 
 [[social]]
-    identifier = "twitter"
+    identifier = "x"
     name = "X(Twitter)"
     url = "https://x.com/Hals_AC"
 
     [social.params]
-        icon = "brand-twitter"
+        icon = "brand-x"
+
+[[social]]
+    identifier = "linkedin"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/iharuki/"
+
+    [social.params]
+        icon = "brand-linkedin"
+
+[[social]]
+    identifier = "instagram"
+    name = "Instagram"
+    url = "https://www.instagram.com/is__harumaki/"
+
+    [social.params]
+        icon = "brand-instagram"
+
+[[social]]
+    identifier = "facebook"
+    name = "facebook"
+    url = "https://www.facebook.com/haruki.ishikawa.330/"
+
+    [social.params]
+        icon = "brand-facebook"
