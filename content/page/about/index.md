@@ -121,6 +121,17 @@ hals (はるす) / Haruki I.
 - 競技プログラミング
 - X(旧Twitter)
 
+## スキル
+
+- Python
+  - PyTorch, Transformers, Hugging Face
+- Julia
+- C, C++
+- PHP
+- HTML / JavaScript / CSS(SASS)
+- TypeScript / React (勉強中)
+- MySQL (勉強中)
+
 ## 連絡先
 
 iharuki79🐱outlook.jp ※🐱を@に変えてください。
