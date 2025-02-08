@@ -21,9 +21,9 @@ links:
   - title: Codeforces - hals
     description: 現在Pupil。あまり参加できていません。主にC++を使っています。
     website: https://codeforces.com/profile/hals
-  - title: X - @Hals_AC
+  - title: X - @One_hals
     description: プログラミング関連のアカウント。
-    website: https://x.com/Hals_AC
+    website: https://x.com/one_hals
     image: x-logo.svg
   - title: Bluesky - ha1s
     description: 主に読んだ本をつぶやいています。

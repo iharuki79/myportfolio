@@ -18,7 +18,7 @@
 [[social]]
     identifier = "x"
     name = "X(Twitter)"
-    url = "https://x.com/Hals_AC"
+    url = "https://x.com/one_hals"
 
     [social.params]
         icon = "brand-x"
@@ -30,14 +30,6 @@
 
     [social.params]
         icon = "brand-linkedin"
-
-[[social]]
-    identifier = "instagram"
-    name = "Instagram"
-    url = "https://www.instagram.com/is__harumaki/"
-
-    [social.params]
-        icon = "brand-instagram"
 
 [[social]]
     identifier = "facebook"
