@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Noto+Sans+JP:wght@400;700&display=swap');
+
+.body {
+    padding: 0;
+    margin: 0 auto;
+    color: #10a318;
+    font-family: 'Kiwi Maru', 'Noto Sans JP', sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+p {
+    margin: 1em;
+    line-height: 1.5em;
+}
+
+div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #10a318;
+    font-family: 'Kiwi Maru', 'Noto Sans JP', sans-serif !important;
+}
+
+header,
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    display: block;
+    z-index: 9999;
+}
