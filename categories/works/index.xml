@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>works on hals's page</title><link>https://www.hals.one/categories/works/</link><description>Recent content in works on hals's page</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 24 Oct 2024 09:27:04 +0000</lastBuildDate><atom:link href="https://www.hals.one/categories/works/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo + GitHub Pagesでブログを開設した</title><link>https://www.hals.one/p/new-portfolio/</link><pubDate>Thu, 24 Oct 2024 09:27:04 +0000</pubDate><guid>https://www.hals.one/p/new-portfolio/</guid><description>&lt;h2 id="はじめに">はじめに
+&lt;/h2>&lt;p>ドメインを取得してから長らくリンク集としての活用しかできていなかったのですが、このたびちゃんとブログ兼ポートフォリオとして活用しようと思い立ちました。&lt;/p>
+&lt;p>構成としては、Hugoで静的サイトを生成して、GitHub Pagesでホスティング、デプロイはGitHub Actionsを使っているという感じです。&lt;/p>
+&lt;p>まぁ個人の備忘録で少しは誰かの役に立てばという感じ&amp;hellip;&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/iharuki79/myportfolio" target="_blank" rel="noopener"
+>GitHubリポジトリ&lt;/a>&lt;/p>
+&lt;h2 id="hugoについて">Hugoについて
+&lt;/h2>&lt;p>Go言語で書かれた静的サイトジェネレータで、オープンソースで開発されておりテーマがいっぱいあります。GitHub Pagesが静的サイトホスティングなので(&lt;a class="link" href="https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages" target="_blank" rel="noopener"
+>GitHub Pagesについて&lt;/a>)、自分でサイトを作っていじりたいがサーバー選びが面倒臭い、という場合にぴったりです。また、記述がMarkdown言語なのでHTMLよりも書きやすい(人による)です。&lt;/p>
+&lt;p>&lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
+>Hugo公式サイト&lt;/a>&lt;/p>
+&lt;h2 id="テーマについて">テーマについて
+&lt;/h2>&lt;p>&lt;a class="link" href="https://themes.gohugo.io/themes/hugo-theme-stack/" target="_blank" rel="noopener"
+>Stack&lt;/a>というテーマを選びました。デザインがお気に入りだったから&amp;hellip;&amp;hellip;と言いたいところですが、本音は楽をしたかったからです。&lt;/p>
+&lt;p>StackテーマではGitHub上にPublic Templateという形式でスターターキット的なの用意されており、従ってポチポチしてるだけでリポジトリ作成→サイトデプロイ→GitHub Actions環境整備までやってくれます。あとはこの内容をガチャガチャいじるだけです。ありがたいですね。&lt;/p>
+&lt;p>Public Templateは&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack-starter" target="_blank" rel="noopener"
+>こちら&lt;/a>。ちなみにDev Containersが使われているのでVSCode拡張でDev Containersを入れる必要があります。&lt;/p>
+&lt;h2 id="ビルドデバッグ">ビルド＆デバッグ
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">## ローカルで立ち上げ&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$ hugo server &lt;span class="c1"># localhost:1313で確認できる&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">## ビルド&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$ hugo
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">## 新投稿作成(投稿の命名ルールは人次第)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$ hugo new post/&lt;span class="o">{&lt;/span>日付&lt;span class="o">}&lt;/span>/&lt;span class="o">{&lt;/span>ブログ名&lt;span class="o">}&lt;/span>.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="カスタマイズ">カスタマイズ
+&lt;/h2>&lt;p>色んなカスタマイズについてです。&lt;/p>
+&lt;h3 id="configtoml">config.toml
+&lt;/h3>&lt;p>基本的な設定を書き込み。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml:config.toml" data-lang="toml:config.toml">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">baseurl&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;https://www.hals.one/&amp;#34;&lt;/span> &lt;span class="c"># ホスティングするURL&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">languageCode&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;ja-jp&amp;#34;&lt;/span> &lt;span class="c"># 日本語なのでja-jpを指定。&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">title&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;hals&amp;#39;s page&amp;#34;&lt;/span> &lt;span class="c"># ページタイトル&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">defaultContentLanguage&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;ja&amp;#34;&lt;/span> &lt;span class="c"># デフォルトは日本語(まだ多言語対応してないのでそんなに意味ない)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">hasCJKLanguage&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span> &lt;span class="c"># 日本語、中国語などはtrueにしないといけないらしい&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="フォント">フォント
+&lt;/h3>&lt;p>中華フォントなのが気になるので&lt;code>assets/scss/custom.scss&lt;/code>でフォントを読み込んで全部のスタイルを上書き。あと絵文字も。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="k">@import&lt;/span> &lt;span class="sx">url(&amp;#39;&amp;lt;https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&amp;amp;display=swap&amp;gt;&amp;#39;)&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">@import&lt;/span> &lt;span class="sx">url(&amp;#39;&amp;lt;https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;700&amp;amp;display=swap&amp;gt;&amp;#39;)&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">*&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;Noto Sans JP&amp;#39;&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="ni">sans-serif&lt;/span> &lt;span class="k">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nc">.emoji&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="n">Apple&lt;/span> &lt;span class="ni">Color&lt;/span> &lt;span class="ni">Emoji&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="n">Segoe&lt;/span> &lt;span class="n">UI&lt;/span> &lt;span class="ni">Emoji&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="ow">Not&lt;/span>&lt;span class="n">oColorEmoji&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="n">Segoe&lt;/span> &lt;span class="n">UI&lt;/span> &lt;span class="n">Symbol&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="ow">And&lt;/span>&lt;span class="n">roid&lt;/span> &lt;span class="ni">Emoji&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="n">EmojiSymbols&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="menutoml">menu.toml
+&lt;/h3>&lt;figure>&lt;img src="https://www.hals.one/images/20241024/menu.png"
+alt="※画像の貼り方はstatic/images/以下にぶち込んでshortcodeで呼び出すしかない？">&lt;figcaption>
+&lt;p>※画像の貼り方は&lt;code>static/images/&lt;/code>以下にぶち込んでshortcodeで呼び出すしかない？&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>ここのアカウントとして出すリンクとアイコンを決めているっぽいので、ブランドアイコンを持ってきて&lt;code>assets/icons/&lt;/code>以下に格納し、次のように書く。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[[&lt;/span>&lt;span class="nx">social&lt;/span>&lt;span class="p">]]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">identifier&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;github&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">name&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;GitHub&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">url&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;https://github.com/iharuki79&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="nx">social&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">params&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">icon&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;brand-github&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="paramstoml">params.toml
+&lt;/h3>&lt;p>日付フォーマットはYYYY/MM/DD hh:mm:ssがいい。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">dateFormat&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">published&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;2006/01/02&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">lastUpdated&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;2006/01/02 15:04:05&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Twitter(X)で共有したときのOGP設定。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">opengraph&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">twitter&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">site&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">card&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;summary&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">defaultImage&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">opengraph&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">enabled&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">local&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">src&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;avatar.jpg&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="カテゴリ">カテゴリ
+&lt;/h3>&lt;p>&lt;code>content/categories/{カテゴリ名}/_index.md&lt;/code>を作ると、新しく自分のカテゴリを作ることができる。&lt;/p>
+&lt;p>私はブログ、制作物、読書記録、競プロ系、参加録、その他で分けてブログを作った。タグとカテゴリの使い分けはあまり出来ていない（カテゴリもタグも複数つけられてしまう）。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="line">&lt;span class="cl">&lt;span class="nn">---&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">読書記録&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">読んだ本&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># Badge style&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">style&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">background&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;#692a9d&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">color&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;#fff&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nn">---&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Hello World!🎉</title><link>https://www.hals.one/p/hello-world/</link><pubDate>Tue, 22 Oct 2024 15:33:13 +0000</pubDate><guid>https://www.hals.one/p/hello-world/</guid><description>&lt;p>新しいポートフォリオサイトを開設しました！🎉&lt;/p>
+&lt;p>静的コンテンツ生成はHugo (&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
+>Stackテーマ&lt;/a>)、ホスティングはGitHub Pages、CI/CDはGitHub Actionsを利用しています。&lt;/p>
+&lt;h2 id="リンク">リンク
+&lt;/h2>&lt;p>&lt;a class="link" href="https://github.com/iharuki79/myportfolio" target="_blank" rel="noopener"
+>GitHubリポジトリ&lt;/a>&lt;/p></description></item></channel></rss>

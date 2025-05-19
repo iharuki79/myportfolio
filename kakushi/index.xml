@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kakushis on hals's page</title><link>https://www.hals.one/kakushi/</link><description>Recent content in Kakushis on hals's page</description><generator>Hugo -- gohugo.io</generator><language>ja</language><atom:link href="https://www.hals.one/kakushi/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://www.hals.one/kakushi/old/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.hals.one/kakushi/old/</guid><description>&lt;style>
+li#dark-mode-toggle {
+display: none;
+}
+&lt;/style>
+&lt;div class="body">
+&lt;template shadowrootmode="open">
+&lt;meta name="robots" content="noindex, nofollow">
+&lt;meta charset="utf-8">
+&lt;meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, viewport-fit=cover">
+&lt;title>hals.one - めいんぺーじ&lt;/title>
+&lt;meta name="keywords" content="">
+&lt;link rel="preconnect" href="https://fonts.googleapis.com">
+&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+&lt;link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&amp;display=swap" rel="stylesheet">
+&lt;link href="./stylesheets/style.css" rel="stylesheet" type="text/css">
+&lt;script type="text/javascript" src="./libraries/p5.js">&lt;/script>
+&lt;script type="text/javascript" src="./scripts/sketch.js">&lt;/script>
+&lt;script type="text/javascript" src="./scripts/script.js">&lt;/script>
+&lt;header>ヘッダーも用意してないよ&lt;/header>
+&lt;div class="section">
+&lt;img id="webM" src="./images/circleM.png" alt="顔にwebと書かれた謎の生き物" title="ぼく" width="70vw" height="70vw">
+&lt;h1>＜ただのリンク集だよ!&lt;/h1>
+&lt;/div>
+&lt;div>Twitter&lt;/div>
+&lt;div class="section">
+&lt;p>&lt;a href="https://twitter.com/Hals_SC">🔓public&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://twitter.com/Hals_AC">🔓競プロ&lt;/a>&lt;/p>
+&lt;/div>
+&lt;div>blog / diary / lifelog&lt;/div>
+&lt;div class="section">
+&lt;p>&lt;a href="https://halss.hatenablog.com/">hatenablog&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://qiita.com/OneHalsOne">Qiita&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.last.fm/user/KawaiiHack">last.fm&lt;/a>&lt;/p>
+&lt;/div>
+&lt;div>programming&lt;/div>
+&lt;div class="section">
+&lt;p>&lt;a href="https://github.com/iharuki79/">GitHub&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://atcoder.jp/users/hals">AtCoder&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://onlinejudge.u-aizu.ac.jp/status/users/hals">AOJ&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://codeforces.com/profile/hals">Codeforces&lt;/a>&lt;/p>
+&lt;/div>
+&lt;div>game&lt;/div>
+&lt;div class="section">
+&lt;p>&lt;a href="https://steamcommunity.com/profiles/76561199071052921/">Steam&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://store.epicgames.com/ja/u/ae2ec5a53a7549c8b013c85b2a7a10b2">Epic Games&lt;/a>&lt;/p>
+&lt;/div>
+&lt;footer>
+&lt;font size=1>そろそろちゃんとしたいなと思ってはいます&lt;/font>
+&lt;/footer>
+&lt;/template>
+&lt;/div></description></item></channel></rss>
