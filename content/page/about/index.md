@@ -55,26 +55,38 @@ hals (はるす)
 
 ### 国際学会(査読あり)
 
-- Haruki Ishikawa, Ryuto Kobayashi, Yuki Gato and Tomoyosi Akiba, "Pseudo Fake Data Generation using Round-Trip Translation for Fact Verification on Political Debates," In Proceedings of the 10th International Conference on Advanced Informatics: Concepts, Theory and Applications (ICAICTA), IEEE, 2023. <https://ieeexplore.ieee.org/document/10389996>  (**Best Paper Award**)
-- Tasuku Shin, Haruki Ishikawa, Yuki Gato, Eiji Kuramoto and Tomoyoshi Akiba, "AKBL at the NTCIR-17 QA Lab-PoliInfo-4 Task," the 17th NTCIR conference, Dec. 2023. (共著, 発表)
-
-### 国内学会(査読あり)
-
-- 石川 晴基 and 秋葉 友良, "[Round-Trip翻訳を用いた疑似フェイクデータ生成による議会議事録の自動要約を対象とした事実検証](https://confit.atlas.jp/guide/event/jsai2024/subject/3M1-OS-12a-03/tables?cryptoId=)," 2024年度 人工知能学会全国大会, 静岡県浜松市, May. 2024.
+- Oct. 2023.
+  - ICAICTA2023(International Conference on Advanced Informatics: Concepts, Theory and Applications)
+  - "Pseudo Fake Data Generation using Round-Trip Translation for Fact Verification on Political Debates"
+  - <https://ieeexplore.ieee.org/document/10389996>  (**Best Paper Award**)
+  - Rombok, Indonesiaにて発表
+- Dec. 2023.
+  - NTCIR-17 conference
+  - "AKBL at the NTCIR-17 QA Lab-PoliInfo-4 Task"
+  - 共著, 発表
 
 ### 国内学会(査読なし)
 
-- 石川 晴基 and 波多 浩昭, "特殊詐欺電話を撃退するための電話アダプタ装置の開発," 信学技報, vol. 121, no. 208, ICTSSL2021-19, pp. 7-11, Oct. 2021. （査読なし）(**2021年ICTSSL研究奨励賞**)
+- Oct. 2021.
+  - 安全・安心な生活とICT研究会(ICTSSL)
+  - "特殊詐欺電話を撃退するための電話アダプタ装置の開発"
+  - 発表
+  - 2021年ICTSSL研究奨励賞
+- May. 2024.
+  - 2024年度 人工知能学会全国大会
+  - "[Round-Trip翻訳を用いた疑似フェイクデータ生成による議会議事録の自動要約を対象とした事実検証](https://confit.atlas.jp/guide/event/jsai2024/subject/3M1-OS-12a-03/tables?cryptoId=)"
+  - 発表
 
 ### 査読ありレター
 
-- 石川 晴基 and 波多 浩昭, “特殊詐欺電話を撃退するための電話アダプタ装置の開発," DOI: 10.14923/transcomj.2021BLL0017, 電子情報通信学会論文誌 B, Vol. J105-B, No. 7, pp.525-526, Jul. 2022.
+- Jul. 2022.
+  - 電子情報通信学会論文誌 B, Vol. J105-B, No. 7, pp.525-526
+  - "特殊詐欺電話を撃退するための電話アダプタ装置の開発"
+  - DOI: 10.14923/transcomj.2021BLL0017
 
 ### 共著
 
-- 松井我颯, 石川晴基, 中島陽子, 本間宏利 and 秋葉友良, "都議会議事録における自動要約のための数値情報自動修正手法の提案," 言語処理学会第29回年次大会, 神戸市, Mar. 2024. (共著)
-- 小川 泰弘, 石川 晴基 and 秋葉 友良, "[NTCIR-17 QA Lab-PoliInfo-4におけるQAタスクおよびAVタスクの分析](https://confit.atlas.jp/guide/event/jsai2024/subject/3M1-OS-12a-01/tables?cryptoId=)," 2024年度 人工知能学会全国大会, 静岡県浜松市, May. 2024. (共著)
-- 松井我颯, 石川晴基, 中島陽子, 本間宏利 and 秋葉友良, "会議録における自動要約のための数値情報自動修正手法の提案," 言語獲得と理解研究会, LAU Technical Reports, pp.28--32, 釧路市, Sep. 2024.
+ほか、共著あり
 
 ## 受賞歴
 
@@ -84,7 +96,6 @@ hals (はるす)
 - 電子情報通信学会東海支部 学生研究奨励賞
 - 福井高専電子情報工学科 卒業研究発表 最優秀賞
 - International Conference on Advanced Informatics: Concepts, Theory and Applications (ICAICTA) 2023 Best Paper Award
-- NTCIR-17 QA Lab-PoliInfo-4 1位(AnswerVerification subtask, AKBLとして)
 
 ### 福井高専プログラミング研究会として
 
